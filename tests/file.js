@@ -8,4 +8,5 @@ await page.goto("https://shopnewage.com/")
  const xyz= await page.locator('img[class="menu-icons"]') 
 
  await expect(xyz).toHaveClass('menu-icons')
+ 
 })
